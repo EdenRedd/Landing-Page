@@ -39,4 +39,13 @@ a:hover {
   &-ai-c {
     align-items: center;
   }
+
+  //Butoons
+  button,
+  .button {
+    padding: 1rem 1.875;
+    background: linear-gradient(to right, $limeGreen, $brightCyan);
+    border-radius: 50px;
+    cursor: pointer;
+  }
 }
